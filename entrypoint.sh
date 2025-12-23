@@ -62,9 +62,6 @@ declare -A REPOS=(
   ["ComfyUI-Manager"]="https://github.com/ltdrdata/ComfyUI-Manager.git"
   ["ComfyUI_essentials"]="https://github.com/cubiq/ComfyUI_essentials.git"
   ["ComfyUI-Crystools"]="https://github.com/crystian/ComfyUI-Crystools.git"
-  ["rgthree-comfy"]="https://github.com/rgthree/rgthree-comfy.git"
-  ["ComfyUI-KJNodes"]="https://github.com/kijai/ComfyUI-KJNodes.git"
-  ["ComfyUI_UltimateSDUpscale"]="https://github.com/ssitu/ComfyUI_UltimateSDUpscale.git"
   ["ComfyUI_SeedVR2_VideoUpscaler"]="https://github.com/numz/ComfyUI-SeedVR2_VideoUpscaler.git"
 )
 
