@@ -24,6 +24,7 @@ RUN apt-get update \
       libglib2.0-0 \
       fonts-dejavu-core \
       fontconfig \
+      build-essential \
  && rm -rf /var/lib/apt/lists/*
 
 # Copy and enable the startup script
