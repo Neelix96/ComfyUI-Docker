@@ -49,6 +49,9 @@ WORKDIR /app/ComfyUI
 # Install ComfyUI dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
+# Intall sage attention for speed up
+RUN pip install sageattention
+
 # (Optional) Clean up pip cache to reduce image size
 RUN pip cache purge
 
@@ -57,4 +60,4 @@ EXPOSE 8188
 
 # Run entrypoint first, then start ComfyUI
 ENTRYPOINT ["/entrypoint.sh"]
-CMD ["python","/app/ComfyUI/main.py","--listen","0.0.0.0"]
+CMD ["python","/app/ComfyUI/main.py","--listen","0.0.0.0","--use-sage-attention"]
