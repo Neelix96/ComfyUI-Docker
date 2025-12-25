@@ -25,6 +25,7 @@ RUN apt-get update \
       fonts-dejavu-core \
       fontconfig \
       build-essential \
+      ffmpeg \
  && rm -rf /var/lib/apt/lists/*
 
 # Copy and enable the startup script
